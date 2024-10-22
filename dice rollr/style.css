@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Light teal background */
+    color: #333; /* Dark text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff; /* White background for the container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #00796b; /* Change heading color to teal */
+}
+
+button {
+    background-color: #00796b; /* Button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #004d40; /* Darker shade on hover */
+}
+
+#dice-image {
+    width: 100px; /* Set a width for the dice image */
+    margin: 20px 0; /* Space above and below the image */
+}
+
+p {
+    font-size: 18px;
+    color: #555; /* A lighter color for the text */
+}
